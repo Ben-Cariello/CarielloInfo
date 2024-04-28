@@ -3,3 +3,6 @@ body {
     color: #DBAFC1;
     text-align: center;
 }
+a :active {
+    color: white;
+}
