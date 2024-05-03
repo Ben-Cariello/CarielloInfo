@@ -1,6 +1,7 @@
 :root {
     --text: #12130F;
     --background: #878787;
+    --footercolor: #F1FFE7; 
 }
 body {
     background-color: var(--background); 
@@ -9,4 +10,24 @@ body {
 }
 .info {
     border: 1px solid var(--text);
+}
+#logo {
+    max-width: 400px;
+}
+#homePic{
+    float: left;
+}
+#homeInfo {
+    max-height: 800px;
+    display:block;
+}
+#hometext {
+    text-align: center;
+    padding-top: 15%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--footercolor);
 }

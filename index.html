@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <title>Ben Cariello's Website</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "./styles/default.css?version=2">
-    <nav>
-        -  
-        <a href = "index.html">Home</a>
-        -  
-        <a href = "about.html">About me</a>
-        -
-        <a href = "gameproject.html">Game Design</a>
-        -
-    </nav>
+    <div data-include="components/header.html"></div>
 </head>
 <body>
     <header>
@@ -21,10 +9,17 @@
     </header>
     <main>
         <h1>Home</h1>
-
+        <div id ="homeInfo">
+            <figure id = "homePic">
+                <img src = "./images/CarielloLogo.png" alt = "Logo" id = "logo">
+                <figcaption>Cariello Collection</figcaption>
+            </figure>
+            <p id = "hometext">This webpage is dedicated to all of my work and passion projects. You will be able to look through all my past projects, and keep up in real time as I regularly update the website with my current projects.</p>
+        </div>
     </main>
     <footer>
-
-    </footer>
+        <div data-include="components/footer.html"></div>
+       </footer>
+       <script src = "./scripts/include.js"></script>
 </body>
 </html>
