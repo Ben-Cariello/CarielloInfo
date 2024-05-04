@@ -1,0 +1,9 @@
+:root {
+    --main: black;
+    --text: white;
+}
+body {
+    background-color: var(--main);
+    color: var(--text);
+    text-align: center;
+}
